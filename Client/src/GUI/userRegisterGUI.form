@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.userRegisterGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="15" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="116" y="159" width="808" height="543"/>
+    </constraints>
+    <properties>
+      <background color="-14356993"/>
+      <font name="Arial" size="18" style="1"/>
+      <foreground color="-405039"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bfe68" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="1feea" class="javax.swing.JTextField" binding="nameTextField">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <component id="83347" class="javax.swing.JLabel" binding="phoneLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Phone number"/>
+        </properties>
+      </component>
+      <component id="8be69" class="javax.swing.JTextField" binding="phoneTextField">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <component id="3158a" class="javax.swing.JLabel" binding="cccdLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Citizen identification"/>
+        </properties>
+      </component>
+      <component id="cca2f" class="javax.swing.JTextField" binding="cccdTextField">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <component id="49372" class="javax.swing.JLabel" binding="emailLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="bbffb" class="javax.swing.JTextField" binding="emailTextField">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <component id="6216b" class="javax.swing.JLabel" binding="registerLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono ExtraBold" size="24" style="1"/>
+          <foreground color="-327681"/>
+          <text value="REGISTER FORM"/>
+        </properties>
+      </component>
+      <hspacer id="161f9">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="30"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="ea7c4">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="30"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="99192" class="javax.swing.JLabel" binding="step1Label">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-327681"/>
+          <text value="Step 1:Provide your personal information!"/>
+        </properties>
+      </component>
+      <component id="b0d3c" class="javax.swing.JButton" binding="createButton">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7369329"/>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-327681"/>
+          <text value="Create"/>
+        </properties>
+      </component>
+      <component id="b8d7d" class="javax.swing.JLabel" binding="step2Label">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13947600"/>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-327681"/>
+          <text value="Step 2: Enter your username and password!"/>
+        </properties>
+      </component>
+      <component id="f21c0" class="javax.swing.JLabel" binding="userNameLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <component id="29487" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="c98f3" class="javax.swing.JLabel" binding="reenterPasswordLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Re-enter password"/>
+        </properties>
+      </component>
+      <component id="54b7d" class="javax.swing.JTextField" binding="userNameTextField">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <vspacer id="e7bd9">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="ff840">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="c1ea0" class="javax.swing.JPasswordField" binding="passwordTextField">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <component id="93b45" class="javax.swing.JPasswordField" binding="reEnterPasswordTextField">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <component id="db256" class="javax.swing.JLabel" binding="accountNumberLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <foreground color="-327681"/>
+          <text value="Account number"/>
+        </properties>
+      </component>
+      <component id="863d9" class="javax.swing.JTextField" binding="accountNumberTextField">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327681"/>
+        </properties>
+      </component>
+      <component id="87d9b" class="javax.swing.JButton" binding="backRegisterButton">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7369329"/>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-327681"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <vspacer id="3e6e0">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
